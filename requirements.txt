@@ -1,0 +1,12 @@
+torch>=2.4.0
+chronos-forecasting
+datasets
+safetensors
+scikit-learn
+pandas
+numpy
+scipy
+matplotlib
+pyarrow
+tqdm
+statsmodels  # ADF p-value + autocorrelation; probing/probe.py imports it at module load

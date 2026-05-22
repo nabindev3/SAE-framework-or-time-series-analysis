@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+_stale/
+probing/results/
+eval/results/
+# Large generated artifacts: keep the directories, ignore the contents so the
+# repo stays light. Re-create by running `bash reproduce.sh`.
+activations/*.safetensors
+activations/*.parquet
+sae/checkpoints/*.pt
+*.safetensors
