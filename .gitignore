@@ -10,5 +10,9 @@ eval/results/
 # repo stays light. Re-create by running `bash reproduce.sh`.
 activations/*.safetensors
 activations/*.parquet
+activations_base/
+activations_late/
 sae/checkpoints/*.pt
+sae/checkpoints_late/
 *.safetensors
+*.log
