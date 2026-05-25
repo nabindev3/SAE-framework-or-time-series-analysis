@@ -175,7 +175,7 @@ For TSFM deployment, the operational lesson is: **eight cheap context-window sta
 
 All experiments run from one command (`bash reproduce.sh`) on the cached `chronos-t5-small` ETTh1 extraction (~360 MB). The cascade artifact requires a single additional command (`python eval/extract_base_crps_test_only.py`, ~1.5 h on CPU, test windows only). Code, pinned environment, and the report with on-disk artifact references are at:
 
-`https://github.com/nabindev3/SAE-framework-or-time-series-analysis`
+`https://github.com/nabindev3/tsfm-sae-difficulty`
 
 Methodology guardrails are enforced in code: the probe refuses to run on metadata lacking `split` or `crps_*` columns, or with a missing/corrupt SAE checkpoint. It cannot silently produce a fake result.
 
